@@ -1,7 +1,60 @@
-/*----- general classes -----*/
+/*----- Variables -----*/
+$black: rgb(7, 7, 7);
+$white: white;
+$red: #f54538;
+/*--x-- Variables --x--*/
+
+/*----- General Classes -----*/
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   color: $white;
+   font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+   font-size: 2.5rem;
+   font-family: 'Lobster Two', cursive;
+   font-weight: lighter;
+}
+
+h2 {
+   font-size: 8rem;
+   font-family: 'Lobster Two',cursive;
+   font-weight: lighter;
+}
+
+h3 {
+   font-size: 3.5rem;
+}
+
+h4 {
+   font-size: 3rem;
+}
+
+p {
+   font-size: 2.5rem;
+}
+
+li {
+   font-size: 2rem;
+   list-style-type: none;
+}
+
+a {
+   color: $white;
+   text-decoration: none;
+}
 /*--x-- general classes --x--*/
+
+/*----- Import _home.scss partial -----*/
+@import "home";
+/*--x-- Import _home.scss partial --x--*/
