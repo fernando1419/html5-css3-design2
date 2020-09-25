@@ -1,5 +1,6 @@
 /*----- Variables -----*/
 $black: rgb(7, 7, 7);
+$gray: #323232;
 $white: white;
 $red: #f54538;
 /*--x-- Variables --x--*/
@@ -55,6 +56,7 @@ a {
 }
 /*--x-- general classes --x--*/
 
-/*----- Import _home.scss partial -----*/
+/*----- Import sass partials -----*/
 @import "home";
-/*--x-- Import _home.scss partial --x--*/
+@import "features";
+/*--x-- Import sass partials --x--*/
